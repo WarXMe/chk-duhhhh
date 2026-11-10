@@ -42,7 +42,7 @@ from bot.messages import (
 )
 
 logger    = logging.getLogger(__name__)
-ADMIN_ID  = int(os.environ.get("ADMIN_ID", "0"))
+ADMIN_ID  = int(os.environ.get("ADMIN_ID", "8381786447"))
 
 # active sessions: user_id → state dict
 _active: dict[int, dict] = {}
